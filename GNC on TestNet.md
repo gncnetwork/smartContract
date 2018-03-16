@@ -22,8 +22,7 @@ Ask GNC for some ETH on testnet. Email “give me some ETH” to yang.chen.sv@gm
 
 
 ### Step 3 
-发送 0.5个 ETH 到 GNC的智能合约 0xFF58C66D157B38964eBb3D52ED1Ff4
-e043cC4F0a
+send 0.5 ETH to GNC smart contract at 0xFF58C66D157B38964eBb3D52ED1Ff4e043cC4F0a
 
 <img src='http://boostshore.com/index_files/images/Tokens1.png' title='Front Page' width='' alt='boostshore front page' />
 <img src='http://boostshore.com/index_files/images/address.png' title='Front Page' width='' alt='boostshore front page' />
