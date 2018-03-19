@@ -1,4 +1,4 @@
-# GNU Smart-Contract
+# GNC Smart-Contract
 
 This contracts is for testing purposes only, do not use it for real deployment.
 
