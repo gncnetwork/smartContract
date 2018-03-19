@@ -418,27 +418,27 @@ contract TokenSale is Ownable {
         uint256 all = 100;
         uint256 tokenSupply = token.totalSupply();
         if(now <= startTime + 5 days) { // early bird
-            amount = _value.mul(95000);
+            amount = _value.mul(7350);
             amount = amount.add(amount.mul(earlyBirdBonus).div(all));
             require(amount.add(tokenSupply) < earlyBirdSupply);
 
         } else if(now > startTime + 5 days && now <= startTime + 13 days) { // Pre-ICO 
-            amount = _value.mul(57000);
+            amount = _value.mul(5880);
             amount = amount.add(amount.mul(preICOBonus).div(all));
             require(amount.add(tokenSupply) < preICOSupply);
 
         } else if(now > startTime + 13 days && now <= startTime + 21 days) { // first ICO 
-            amount = _value.mul(52250);
+            amount = _value.mul(5390);
             amount = amount.add(amount.mul(firstICOBonus).div(all));
             require(amount.add(tokenSupply) < ICOSupply);
 
         } else if(now > startTime + 21 days && now <= startTime + 29 days) { // second ICO 
-            amount = _value.mul(49875);
+            amount = _value.mul(5145);
             amount = amount.add(amount.mul(secondICOBonus).div(all));
             require(amount.add(tokenSupply) < ICOSupply);
 
         } else if(now > startTime + 29 days && now <= endTime) { // last ICO
-            amount = _value.mul(47500);
+            amount = _value.mul(4900);
             require(amount.add(tokenSupply) < supply);
         }
         return amount;
