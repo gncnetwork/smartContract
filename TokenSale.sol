@@ -333,7 +333,7 @@ contract MintableToken is Pausable, StandardToken {
 }
 
 contract Token is MintableToken {
-    string public constant name = "GNC";
+    string public constant name = "Galaxy Networks";
     string public constant symbol = "GNC";
     uint8 public constant decimals = 18;
 }
