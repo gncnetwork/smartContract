@@ -348,17 +348,17 @@ contract TokenSale is Ownable {
     // address where funds are collected
     address public wallet;
 
-    // Tokens to be created: 1000 M
-    uint256 public supply = 1000000000 * dec;
+    // Tokens to be created: 100 M
+    uint256 public supply = 100000000 * dec;
 
-    // 50ETH CAP, 1ETH = 95000 GNC
-    uint256 public earlyBirdSupply = 4750000 * dec;
+    // 250ETH CAP, 1ETH = 7350 GNC
+    uint256 public earlyBirdSupply = 1837500 * dec;
 
-    // Tokens to be sold in Pre-ICO phase: 250 M
-    uint256 public preICOSupply = 250000000 * dec;
+    // Tokens to be sold in Pre-ICO phase: 25 M
+    uint256 public preICOSupply = 25000000 * dec;
 
-    // Tokens to be sold in ICO phase: 500 M
-    uint256 public ICOSupply = 500000000 * dec;
+    // Tokens to be sold in ICO phase: 50 M
+    uint256 public ICOSupply = 50000000 * dec;
 
     // Minimum Contribution: 0.01 ether
     uint256 public minContribution = 10000000000000000; 
