@@ -18,6 +18,9 @@ Ask GNC for some ETH on testnet. Email “give me some ETH” to yang.chen.sv@gm
 
 <img src='http://boostshore.com/index_files/images/Tokens2.png' title='Front Page' width='' alt='boostshore front page' />
 <img src='http://boostshore.com/index_files/images/send2.png' title='Front Page' width='' alt='boostshore front page' />
+
+  https://gitter.im/kovan-testnet/faucet
+
 <img src='http://boostshore.com/index_files/images/send1.png' title='Front Page' width='' alt='boostshore front page' />
 
 
